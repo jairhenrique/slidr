@@ -1,0 +1,8 @@
+{
+  "name": "slidr",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">= 0",
+    "ejs": ">= 0"
+  }
+}

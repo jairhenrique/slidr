@@ -1,0 +1,24 @@
+<form action="/speaker/<%= params.id %>/upload" method="post" enctype="multipart/form-data">
+    <p>
+        <label>
+            Select your slides PDF:<br/>
+            <input type="file" name="slides">
+        </label>
+    </p>
+
+    <p>
+        <input type="submit" value="Upload">
+    </p>
+</form>
+
+<div id="info">
+    <dl>
+        <dt>Slides</dt>
+        <dd><%= presentation.slides %></dd>
+
+        <dt>Join URL</dt>
+        <dd>
+            <a href="/attend/<%= params.id %>">/attend/<%= params.id %></a>
+        </dd>
+    </dl>
+</div>
